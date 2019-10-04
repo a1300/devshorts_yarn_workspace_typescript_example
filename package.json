@@ -1,13 +1,19 @@
 {
-  
-  "name": "lerna_workplace",
+  "private": true,
+  "workspaces": [
+    "cmd",
+    "client"
+  ],
+  "name": "yarn_workplace",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc --build --force tsconfig.json",
+    "clean": "rm -rf cmd/dist client/dist"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "a1300 <https://github.com/a1300>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
 }

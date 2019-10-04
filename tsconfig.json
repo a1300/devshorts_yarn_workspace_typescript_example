@@ -1,0 +1,15 @@
+{
+  "references": [
+    {
+      "path": "./client"
+    },
+    {
+      "path": "./cmd"
+    }
+  ],
+  "files": [],
+  "include": [],
+  "exclude": [
+    "**/node_modules"
+  ]
+}
