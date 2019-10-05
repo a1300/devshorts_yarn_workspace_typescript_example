@@ -13,7 +13,7 @@ git clone https://github.com/a1300/devshorts_yarn_workspace_typescript_example
 cd devshorts_yarn_workspace_typescript_example
 ```
 
-Setup `yarn` in its `workspaces` by simply running:
+Setup `yarn` and its `workspaces` by simply running:
 
 ```bash
 yarn
